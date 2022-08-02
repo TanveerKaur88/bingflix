@@ -15,21 +15,23 @@ public class manage_server_frame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        bt1 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
         bt2 = new javax.swing.JButton();
+        bt1 = new javax.swing.JButton();
         lb = new javax.swing.JLabel();
+
+        jLabel1.setText("jLabel1");
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 204));
+
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
-
-        bt1.setText("START SERVER");
-        bt1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt1);
-        bt1.setBounds(175, 80, 160, 60);
 
         bt2.setText("STOP SERVER");
         bt2.addActionListener(new java.awt.event.ActionListener() {
@@ -38,11 +40,20 @@ public class manage_server_frame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(bt2);
-        bt2.setBounds(180, 200, 160, 60);
+        bt2.setBounds(170, 240, 160, 60);
+
+        bt1.setText("START SERVER");
+        bt1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(bt1);
+        bt1.setBounds(170, 130, 160, 50);
 
         lb.setText("WELCOME TO BINGEFLIX");
         getContentPane().add(lb);
-        lb.setBounds(180, 20, 180, 50);
+        lb.setBounds(180, 60, 133, 16);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,6 +90,11 @@ public class manage_server_frame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bt1;
     private javax.swing.JButton bt2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JLabel lb;
     // End of variables declaration//GEN-END:variables
 }
